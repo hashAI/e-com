@@ -1,16 +1,26 @@
 {
   "name": "ecom",
   "version": "0.1.0",
-  "private": true,
+  "description": "A full featured ecom app",
+  "scripts": {
+    "dev": "webpack --mode=development --colors --progress --debug --watch",
+    "prod": "node --max_old_space_size=4096 webpack --mode=production --colors --progress",
+    "build": "webpack --mode=production --colors --progress",
+    "server": "webpack-dev-server --mode=development --colors --debug --progress --content-base ./build --inline --hot"
+  },
+  "author": "HaSH",
+  "license": "ISC",
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-dom": "^16.4.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }
