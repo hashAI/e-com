@@ -1,6 +1,6 @@
 # e-com
 
-Ecommerce web application built with React, Vite, TailwindCSS, and Headless UI. The project aims to replicate a modern ecommerce website, including features such as product browsing, detailed product pages, a cart system, and a responsive design.
+Ecommerce frontend built with React, Vite, TailwindCSS, and Headless UI. The project aims to replicate a modern ecommerce website, including features such as product browsing, detailed product pages, a cart system, and a responsive design.
 
 ## Setup Instructions
 
